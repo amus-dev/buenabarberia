@@ -7,8 +7,6 @@ const Footer = () => {
       <div className="wrapper">
         <div className="footer">
           <div className="d-flex flex-column">
-            <div className="align-self-center">{/* <Copyright /> */}</div>
-
             <div className="align-self-center">
               <FooterMenu />
             </div>
