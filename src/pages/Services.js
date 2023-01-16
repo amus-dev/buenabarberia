@@ -16,7 +16,7 @@ const Services = () => {
     <Fragment>
       <MetaTags>
         <meta charSet="UTF-8" />
-        <title>Services | Chop - Barber Shop React JS Template</title>
+        <title>Servicios | Buena Barba</title>
 
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
