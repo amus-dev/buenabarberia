@@ -40,15 +40,10 @@ const page404 = () => {
           <div className="wrapper">
             <div className="content">
               <p className="text after">
-                The page you were looking for couldn't be found. The page could
-                be removed or you misspelled the word while searching for it.
-                Maybe try a search?
+                No se pudo encontrar la página que estaba buscando. La página
+                podría eliminarse o usted escribió mal la palabra mientras la
+                buscaba.
               </p>
-
-              <div className="form">
-                <SearchForm />
-              </div>
-
               <BackToHome />
             </div>
           </div>
