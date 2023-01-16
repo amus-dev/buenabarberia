@@ -111,9 +111,9 @@ class MenuModal extends Component {
                 </div>
               </div>
 
-              <div className="modal-footer">
+              {/* <div className="modal-footer">
                 <ModalMenuLanguages />
-              </div>
+              </div> */}
             </div>
           </div>
         </Modal>

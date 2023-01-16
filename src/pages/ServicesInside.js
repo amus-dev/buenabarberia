@@ -10,7 +10,8 @@ import BackToServices from "../components/button/BackToServices";
 const ServicesInside = () => {
   document.body.classList.add("single");
   document.body.classList.add("single-adveits_services");
-
+  document.body.classList.remove("home");
+  document.body.classList.remove("header-absolute-true");
   return (
     <Fragment>
       <MetaTags>
@@ -104,7 +105,7 @@ const ServicesInside = () => {
                               <span className="list-group-title">
                                 Limpieza facial
                               </span>
-                              <span className="list-group-price">$13.000</span>
+                              <span className="list-group-price">$9.000</span>
                             </li>
 
                             <li className="list-group-item d-flex justify-content-between align-items-center">

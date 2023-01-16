@@ -3,6 +3,7 @@ import HeaderLogo from "../../blocks/logo/HeaderLogo";
 import SearchModal from "../../components/modal/SearchModal";
 import MenuModal from "../../components/modal/MenuModal";
 import Actions from "../actions/Actions";
+import { Link } from "react-router-dom";
 
 const Header = ({ logoColor }) => {
   return (
@@ -10,15 +11,24 @@ const Header = ({ logoColor }) => {
       <div className="wrapper">
         <div className="header-content d-flex justify-content-between">
           <div className="header-left align-self-center">
+            <div className="btnReservar btn btn-lg btn-before-dot btn-link">
+              <a
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Reservar
+              </a>
+            </div>
             <div className="links">
               <div className="links-items">
                 <div className="links-item">
-                  <a
-                    href={process.env.PUBLIC_URL + "/"}
+                  <Link
                     className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto"
+                    to={process.env.PUBLIC_URL + "/"}
                   >
                     INICIO
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
