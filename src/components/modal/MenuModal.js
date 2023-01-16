@@ -3,8 +3,6 @@ import { Modal } from "react-bootstrap";
 import HeaderLogo from "../../blocks/logo/HeaderLogo";
 import SearchModal from "../../components/modal/SearchModal";
 import ModalMenuPrimary from "../../blocks/menu/ModalMenuPrimary";
-import ModalMenuSecondary from "../../blocks/menu/ModalMenuSecondary";
-import ModalMenuLanguages from "../../blocks/menu/ModalMenuLanguages";
 import Actions from "../../blocks/actions/Actions";
 
 class MenuModal extends Component {

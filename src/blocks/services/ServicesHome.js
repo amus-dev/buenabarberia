@@ -3,8 +3,8 @@ import Swiper from "swiper";
 
 // Images
 import Image1 from "../../assets/img/sliders/img-1.JPG";
-import Image2 from "../../assets/img/sliders/img-2.JPG";
-import Image3 from "../../assets/img/sliders/img-3.JPG";
+// import Image2 from "../../assets/img/sliders/img-2.JPG";
+// import Image3 from "../../assets/img/sliders/img-3.JPG";
 import Image4 from "../../assets/img/sliders/img-4.JPG";
 import Image5 from "../../assets/img/sliders/img-5.JPG";
 import Image6 from "../../assets/img/sliders/img-6.JPG";

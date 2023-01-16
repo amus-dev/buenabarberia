@@ -9,8 +9,6 @@ import PageTitleHome from "../blocks/page-title/PageTitleHome";
 import ContactsUs from "../blocks/contacts/ContactUs";
 import ServicesHome from "../blocks/services/ServicesHome";
 import AboutsUs from "../blocks/about/AboutUs";
-import News from "../blocks/news/News";
-import Newsletter from "../blocks/newsletter/Newsletter";
 
 const Home = () => {
   document.body.classList.add("home");

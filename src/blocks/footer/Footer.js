@@ -1,5 +1,4 @@
 import React from "react";
-import Copyright from "../footer/Copyright";
 import FooterMenu from "../footer/FooterMenu";
 
 const Footer = () => {

@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderLogo from "../../blocks/logo/HeaderLogo";
-import SearchModal from "../../components/modal/SearchModal";
 import MenuModal from "../../components/modal/MenuModal";
 import Actions from "../actions/Actions";
 import { Link } from "react-router-dom";
