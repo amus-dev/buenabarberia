@@ -43,14 +43,8 @@ const About = () => {
             <div className="content">
               <div className="clearfix">
                 <AboutImg />
-
                 <AboutsUs />
-
                 <AboutOurTeam />
-
-                {/* <AboutReviews /> */}
-
-                {/* <AboutClients /> */}
               </div>
             </div>
           </div>

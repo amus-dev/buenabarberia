@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
+
+import Banner from "../../assets/img/sliders/banner-about.jpg";
 
 const AboutImg = () => {
-    return (
-        <div id="about-us-img" className="block">
-            <div className="about-img">
-                <div className="img object-fit">
-                    <div className="object-fit-cover">
-                        <img src="assets/img/placeholder/1600x700.jpg" alt="About us" />
-                    </div>
-                </div>
-            </div>
+  return (
+    <div id="about-us-img" className="block">
+      <div className="about-img">
+        <div className="img object-fit">
+          <div className="object-fit-cover">
+            <img src={Banner} alt="About us" />
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default AboutImg;
