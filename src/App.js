@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/services" component={Services} />
         <Route exact path="/services-inside" component={ServicesInside} />
-        <Route exact component={page404} />
+        <Route path="*" component={page404} />
       </Switch>
     </Router>
   );
