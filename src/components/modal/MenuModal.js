@@ -77,8 +77,6 @@ class MenuModal extends Component {
 
                   <div className="header-right d-flex justify-content-end">
                     <div className="d-flex align-items-center">
-                      <SearchModal />
-
                       <div className="menu-close-toggle">
                         <button
                           onClick={this.close}
