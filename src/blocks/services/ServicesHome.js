@@ -2,15 +2,13 @@ import React, { Component } from "react";
 import Swiper from "swiper";
 
 // Images
-import Image1 from "../../assets/img/sliders/img-1.JPG";
-// import Image2 from "../../assets/img/sliders/img-2.JPG";
-// import Image3 from "../../assets/img/sliders/img-3.JPG";
-import Image4 from "../../assets/img/sliders/img-4.JPG";
+import corteCabello from "../../assets/img/sliders/corte-cabello.jpg";
+import RitualBarba from "../../assets/img/sliders/ritual-barba.jpg";
+import CorteBarba from "../../assets/img/sliders/corte-barba.jpg";
+import Permanente from "../../assets/img/sliders/servicio-permanente.jpg";
+import BarbaVip from "../../assets/img/sliders/barba-vip.jpeg";
 import Image5 from "../../assets/img/sliders/img-5.JPG";
 import Image6 from "../../assets/img/sliders/img-6.JPG";
-import Image7 from "../../assets/img/sliders/img-7.JPG";
-import Image8 from "../../assets/img/sliders/img-8.JPG";
-import Image9 from "../../assets/img/sliders/img-9.JPG";
 
 class ServicesHome extends Component {
   componentDidMount() {
@@ -62,7 +60,7 @@ class ServicesHome extends Component {
 
                 <div className="img object-fit">
                   <div className="object-fit-cover">
-                    <img src={Image7} alt="Corte de cabello" />
+                    <img src={corteCabello} alt="Corte de cabello" />
                   </div>
                 </div>
 
@@ -84,7 +82,7 @@ class ServicesHome extends Component {
 
                 <div className="img object-fit">
                   <div className="object-fit-cover">
-                    <img src={Image9} alt="Ritual de Barba" />
+                    <img src={RitualBarba} alt="Ritual de Barba" />
                   </div>
                 </div>
 
@@ -109,7 +107,7 @@ class ServicesHome extends Component {
                 <div className="img object-fit">
                   <div className="object-fit-cover">
                     <img
-                      src={Image8}
+                      src={CorteBarba}
                       alt="Corte de Cabello + Ritual de Barba"
                     />
                   </div>
@@ -175,7 +173,7 @@ class ServicesHome extends Component {
 
                 <div className="img object-fit">
                   <div className="object-fit-cover">
-                    <img src={Image4} alt="Barba Vip" />
+                    <img src={BarbaVip} alt="Barba Vip" />
                   </div>
                 </div>
 
@@ -198,7 +196,7 @@ class ServicesHome extends Component {
 
                 <div className="img object-fit">
                   <div className="object-fit-cover">
-                    <img src={Image1} alt="Servicio de permanente" />
+                    <img src={Permanente} alt="Servicio de permanente" />
                   </div>
                 </div>
 
