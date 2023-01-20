@@ -132,7 +132,8 @@ $header_actions_space: 7.158rem;
           position: relative;
           font-family: $font_secondary_medium;
           font-weight: 500;
-          color: $body_links_color;
+          background-color: $header_actions_background_color;
+          color: $header_actions_color;
           text-transform: uppercase;
           width: 8.421rem;
           height: 100%;
@@ -141,6 +142,28 @@ $header_actions_space: 7.158rem;
 
           @media #{$media_lg} {
             width: 6.842rem;
+          }
+
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -$header_padding_t;
+            width: 100%;
+            background-color: $header_actions_background_color;
+            height: $header_padding_t;
+            @extend .transition-all;
+          }
+
+          &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -$header_padding_t;
+            width: 100%;
+            background-color: $header_actions_background_color;
+            height: $header_padding_t;
+            @extend .transition-all;
           }
 
           &:hover {
