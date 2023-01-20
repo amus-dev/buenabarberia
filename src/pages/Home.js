@@ -10,6 +10,8 @@ import ContactsUs from "../blocks/contacts/ContactUs";
 import ServicesHome from "../blocks/services/ServicesHome";
 import AboutsUs from "../blocks/about/AboutUs";
 
+import Banner from "../assets/img/sliders/foto-footer.png";
+
 const Home = () => {
   document.body.classList.add("home");
   document.body.classList.add("header-absolute-true");
@@ -47,19 +49,12 @@ const Home = () => {
               <div className="img-no-wrap-1 img-gray">
                 <div className="img object-fit">
                   <div className="object-fit-cover">
-                    <img
-                      src="assets/img/placeholder/1920x700.jpg"
-                      alt="Beauty Salon"
-                    />
+                    <img src={Banner} alt="Beauty Salon" />
                   </div>
                 </div>
               </div>
             </div>
             <ContactsUs />
-
-            {/* <News />
-
-                        <Newsletter /> */}
           </div>
         </div>
       </main>
