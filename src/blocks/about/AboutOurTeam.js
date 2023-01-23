@@ -32,7 +32,7 @@ const AboutOurTeam = () => {
               </div>
             </div>
 
-            <nav className="team-member-nav-items">
+            {/* <nav className="team-member-nav-items">
               <ul className="nav">
                 <li className="nav-item">
                   <a title="Facebook" href="https://www.facebook.com/adveits/">
@@ -58,7 +58,7 @@ const AboutOurTeam = () => {
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
           </div>
         </div>
 
@@ -83,7 +83,7 @@ const AboutOurTeam = () => {
               </div>
             </div>
 
-            <nav className="team-member-nav-items">
+            {/* <nav className="team-member-nav-items">
               <ul className="nav">
                 <li className="nav-item">
                   <a title="Facebook" href="https://www.facebook.com/adveits/">
@@ -109,7 +109,7 @@ const AboutOurTeam = () => {
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
           </div>
         </div>
 
@@ -134,7 +134,7 @@ const AboutOurTeam = () => {
               </div>
             </div>
 
-            <nav className="team-member-nav-items">
+            {/* <nav className="team-member-nav-items">
               <ul className="nav">
                 <li className="nav-item">
                   <a title="Facebook" href="https://www.facebook.com/adveits/">
@@ -160,7 +160,7 @@ const AboutOurTeam = () => {
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </div>
