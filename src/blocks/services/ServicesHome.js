@@ -48,7 +48,9 @@ class ServicesHome extends Component {
               <a
                 title="Corte de cabello"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">Corte de Cabello</h3>
@@ -70,7 +72,9 @@ class ServicesHome extends Component {
               <a
                 title="Ritual de Barba"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">Ritual de Barba</h3>
@@ -92,7 +96,9 @@ class ServicesHome extends Component {
               <a
                 title="Corte de Cabello + Ritual de Barba"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">
@@ -119,7 +125,9 @@ class ServicesHome extends Component {
               <a
                 title="Tratamiento Facial"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">Tratamiento Facial</h3>
@@ -140,7 +148,9 @@ class ServicesHome extends Component {
               <a
                 title="Limpieza facial"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">Limpieza facial</h3>
@@ -161,7 +171,9 @@ class ServicesHome extends Component {
               <a
                 title="Barba Vip"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">Barba Vip</h3>
@@ -182,7 +194,9 @@ class ServicesHome extends Component {
               <a
                 title="Servicio de permanente"
                 className="adv-swiper-slide services-item"
-                href={process.env.PUBLIC_URL + "/services-inside"}
+                href="https://buenabarbabarberia.setmore.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">
