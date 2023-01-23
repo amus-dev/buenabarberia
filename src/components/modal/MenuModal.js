@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Modal } from "react-bootstrap";
 import HeaderLogo from "../../blocks/logo/HeaderLogo";
-import SearchModal from "../../components/modal/SearchModal";
 import ModalMenuPrimary from "../../blocks/menu/ModalMenuPrimary";
 import Actions from "../../blocks/actions/Actions";
 

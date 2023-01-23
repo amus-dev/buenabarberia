@@ -1,6 +1,18 @@
 import React, { Component, Fragment } from "react";
 import SwipeBox from "fslightbox-react";
 
+// Images
+import Image1 from "../../assets/img/sliders/img-1.JPG";
+import Image2 from "../../assets/img/sliders/img-2.JPG";
+import Image3 from "../../assets/img/sliders/img-3.JPG";
+import Image4 from "../../assets/img/sliders/img-4.JPG";
+import Image5 from "../../assets/img/sliders/img-5.JPG";
+import Image6 from "../../assets/img/sliders/img-6.JPG";
+import Image7 from "../../assets/img/sliders/img-7.JPG";
+import Image8 from "../../assets/img/sliders/img-8.JPG";
+import Image9 from "../../assets/img/sliders/img-9.JPG";
+import Image10 from "../../assets/img/sliders/barba-vip.jpeg";
+
 class SwipeBoxComponent extends Component {
   state = {
     isVisible: false,
@@ -21,12 +33,16 @@ class SwipeBoxComponent extends Component {
           toggler={this.state.isVisible}
           slide={this.state.slide}
           urls={[
-            "assets/img/placeholder/780x500.jpg",
-            "assets/img/placeholder/780x500.jpg",
-            "assets/img/placeholder/780x500.jpg",
-            "assets/img/placeholder/780x500.jpg",
-            "assets/img/placeholder/780x500.jpg",
-            "assets/img/placeholder/780x500.jpg",
+            Image1,
+            Image2,
+            Image3,
+            Image4,
+            Image5,
+            Image6,
+            Image7,
+            Image8,
+            Image9,
+            Image10,
           ]}
         />
 
@@ -36,114 +52,174 @@ class SwipeBoxComponent extends Component {
             title="Face & Body | Image 1"
             ref={this.swipeImg}
             className="gallery-item swipebox"
-            href="assets/img/placeholder/780x500.jpg"
+            href={Image1}
             rel="gallery"
           >
             <div className="img object-fit">
               <div className="object-fit-cover">
-                <img
-                  src="assets/img/placeholder/780x500.jpg"
-                  alt="Face & Body"
-                />
+                <img src={Image1} alt="Face & Body" />
               </div>
             </div>
 
             <div className="img-bg-color"></div>
           </a>
         </div>
-
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <a
             onClick={(event) => this.showSlide(2, event)}
-            title="Hair Treatments | Image 2"
+            title="Face & Body | Image 2"
+            ref={this.swipeImg}
             className="gallery-item swipebox"
-            href="assets/img/placeholder/780x500.jpg"
+            href={Image2}
             rel="gallery"
           >
             <div className="img object-fit">
               <div className="object-fit-cover">
-                <img
-                  src="assets/img/placeholder/780x500.jpg"
-                  alt="Hair Treatments"
-                />
+                <img src={Image2} alt="Face & Body" />
               </div>
             </div>
 
             <div className="img-bg-color"></div>
           </a>
         </div>
-
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <a
             onClick={(event) => this.showSlide(3, event)}
-            title="Hands & Feets | Image 3"
+            title="Face & Body | Image 3"
+            ref={this.swipeImg}
             className="gallery-item swipebox"
-            href="assets/img/placeholder/780x500.jpg"
+            href={Image3}
             rel="gallery"
           >
             <div className="img object-fit">
               <div className="object-fit-cover">
-                <img
-                  src="assets/img/placeholder/780x500.jpg"
-                  alt="Hands & Feets"
-                />
+                <img src={Image3} alt="Face & Body" />
               </div>
             </div>
 
             <div className="img-bg-color"></div>
           </a>
         </div>
-
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <a
             onClick={(event) => this.showSlide(4, event)}
-            title="Haircuts for Men | Image 4"
+            title="Face & Body | Image 4"
+            ref={this.swipeImg}
             className="gallery-item swipebox"
-            href="assets/img/placeholder/780x500.jpg"
+            href={Image4}
             rel="gallery"
           >
             <div className="img object-fit">
               <div className="object-fit-cover">
-                <img
-                  src="assets/img/placeholder/780x500.jpg"
-                  alt="Haircuts for Men"
-                />
+                <img src={Image4} alt="Face & Body" />
               </div>
             </div>
 
             <div className="img-bg-color"></div>
           </a>
         </div>
-
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <a
             onClick={(event) => this.showSlide(5, event)}
-            title="Hair | Image 5"
+            title="Face & Body | Image 5"
+            ref={this.swipeImg}
             className="gallery-item swipebox"
-            href="assets/img/placeholder/780x500.jpg"
+            href={Image5}
             rel="gallery"
           >
             <div className="img object-fit">
               <div className="object-fit-cover">
-                <img src="assets/img/placeholder/780x500.jpg" alt="Hair" />
+                <img src={Image5} alt="Face & Body" />
               </div>
             </div>
 
             <div className="img-bg-color"></div>
           </a>
         </div>
-
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <a
             onClick={(event) => this.showSlide(6, event)}
-            title="Manicure | Image 6"
+            title="Face & Body | Image 6"
+            ref={this.swipeImg}
             className="gallery-item swipebox"
-            href="assets/img/placeholder/780x500.jpg"
+            href={Image6}
             rel="gallery"
           >
             <div className="img object-fit">
               <div className="object-fit-cover">
-                <img src="assets/img/placeholder/780x500.jpg" alt="Manicure" />
+                <img src={Image6} alt="Face & Body" />
+              </div>
+            </div>
+
+            <div className="img-bg-color"></div>
+          </a>
+        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <a
+            onClick={(event) => this.showSlide(7, event)}
+            title="Face & Body | Image 7"
+            ref={this.swipeImg}
+            className="gallery-item swipebox"
+            href={Image7}
+            rel="gallery"
+          >
+            <div className="img object-fit">
+              <div className="object-fit-cover">
+                <img src={Image7} alt="Face & Body" />
+              </div>
+            </div>
+
+            <div className="img-bg-color"></div>
+          </a>
+        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <a
+            onClick={(event) => this.showSlide(8, event)}
+            title="Face & Body | Image 8"
+            ref={this.swipeImg}
+            className="gallery-item swipebox"
+            href={Image8}
+            rel="gallery"
+          >
+            <div className="img object-fit">
+              <div className="object-fit-cover">
+                <img src={Image8} alt="Face & Body" />
+              </div>
+            </div>
+
+            <div className="img-bg-color"></div>
+          </a>
+        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <a
+            onClick={(event) => this.showSlide(9, event)}
+            title="Face & Body | Image 9"
+            ref={this.swipeImg}
+            className="gallery-item swipebox"
+            href={Image9}
+            rel="gallery"
+          >
+            <div className="img object-fit">
+              <div className="object-fit-cover">
+                <img src={Image9} alt="Face & Body" />
+              </div>
+            </div>
+
+            <div className="img-bg-color"></div>
+          </a>
+        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <a
+            onClick={(event) => this.showSlide(10, event)}
+            title="Face & Body | Image 10"
+            ref={this.swipeImg}
+            className="gallery-item swipebox"
+            href={Image10}
+            rel="gallery"
+          >
+            <div className="img object-fit">
+              <div className="object-fit-cover">
+                <img src={Image10} alt="Face & Body" />
               </div>
             </div>
 
