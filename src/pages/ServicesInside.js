@@ -6,6 +6,9 @@ import Header from "../blocks/header/Header";
 import PageTitleServicesInside from "../blocks/page-title/PageTitleServicesInside";
 import Footer from "../blocks/footer/Footer";
 
+// IMAGE BANNER
+import Banner from "../assets/img/sliders/banner-servicios.jpg";
+
 const ServicesInside = () => {
   document.body.classList.add("single");
   document.body.classList.add("single-adveits_services");
@@ -43,10 +46,7 @@ const ServicesInside = () => {
                     <div className="img-no-wrap-1">
                       <div className="img object-fit">
                         <div className="object-fit-cover">
-                          <img
-                            src="assets/img/placeholder/1600x700.jpg"
-                            alt="Servicios"
-                          />
+                          <img src={Banner} alt="Servicios" />
                         </div>
                       </div>
                     </div>
