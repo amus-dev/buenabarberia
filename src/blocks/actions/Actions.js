@@ -6,7 +6,7 @@ const Actions = () => {
       <div className="actions-items">
         <a
           className="actions-item"
-          href="https://buenabarbabarberia.setmore.com"
+          href="https://buenabarba.site.agendapro.com/cl"
           target="_blank"
           rel="noopener noreferrer"
         >

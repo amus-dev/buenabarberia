@@ -12,7 +12,7 @@ const Header = ({ logoColor }) => {
           <div className="header-left align-self-center">
             <div className="btnReservar btn btn-lg btn-before-dot btn-link">
               <a
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >

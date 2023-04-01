@@ -48,7 +48,7 @@ class ServicesHome extends Component {
               <a
                 title="Corte de cabello"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,7 +72,7 @@ class ServicesHome extends Component {
               <a
                 title="Ritual de Barba"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -96,7 +96,7 @@ class ServicesHome extends Component {
               <a
                 title="Corte de Cabello + Ritual de Barba"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -125,7 +125,7 @@ class ServicesHome extends Component {
               <a
                 title="Tratamiento Facial"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -148,7 +148,7 @@ class ServicesHome extends Component {
               <a
                 title="Limpieza facial"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -171,7 +171,7 @@ class ServicesHome extends Component {
               <a
                 title="Barba Vip"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -194,7 +194,7 @@ class ServicesHome extends Component {
               <a
                 title="Servicio de permanente"
                 className="adv-swiper-slide services-item"
-                href="https://buenabarbabarberia.setmore.com/"
+                href="https://buenabarba.site.agendapro.com/cl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
