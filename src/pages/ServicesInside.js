@@ -79,45 +79,52 @@ const ServicesInside = () => {
                               <span className="list-group-title">
                                 Corte de Cabello
                               </span>
-                              <span className="list-group-price">$12.000</span>
+                              <span className="list-group-price">$14.000</span>
+                            </li>
+
+                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                              <span className="list-group-title">
+                                Corte Premium
+                              </span>
+                              <span className="list-group-price">$18.000</span>
                             </li>
 
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                               <span className="list-group-title">
                                 Ritual de Barba
                               </span>
-                              <span className="list-group-price">$10.000</span>
+                              <span className="list-group-price">$12.000</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                               <span className="list-group-title">
                                 Corte de Cabello + Ritual de Barba
                               </span>
-                              <span className="list-group-price">$20.000</span>
+                              <span className="list-group-price">$23.000</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                               <span className="list-group-title">
                                 Tratamiento Facial
                               </span>
-                              <span className="list-group-price">$13.000</span>
+                              <span className="list-group-price">$14.000</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                               <span className="list-group-title">
                                 Limpieza facial
                               </span>
-                              <span className="list-group-price">$9.000</span>
+                              <span className="list-group-price">$10.000</span>
                             </li>
 
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                               <span className="list-group-title">
-                                Barba Vip
+                                Barba Premium
                               </span>
-                              <span className="list-group-price">$13.000</span>
+                              <span className="list-group-price">$16.000</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                               <span className="list-group-title">
-                                Servicio de permanente
+                                Ondulado permanente + Corte
                               </span>
-                              <span className="list-group-price">$45.000</span>
+                              <span className="list-group-price">$65.000</span>
                             </li>
                           </ul>
                         </div>
